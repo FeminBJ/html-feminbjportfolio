@@ -1,0 +1,104 @@
+.gradient-background {
+    background: linear-gradient(300deg, #19b0de, #1597c7, #1a6e88);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .about
+  {
+    font-weight: 350;
+  }
+  .title
+  {
+    font-weight: 500;
+  }
+  .feature-icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+  .img
+  {
+  height: 70px;
+  width: 70px;
+  margin-bottom: 15px;
+  }
+  .para
+  {
+    font-size: 25px;
+    font-family: sans-serif;
+  }
+  .ttl
+  {
+    color: antiquewhite;
+  }
+  #values
+  {
+    margin-left: 100px;
+  }
+  .row {
+   margin-left: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.projects {
+  margin-left: 150px;
+
+   display: flex;
+   flex-wrap: wrap;
+
+}
+.nre
+{
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: black;
+}
+.epc{
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+}
+.og
+{
+  font-family: sans-serif;
+}
+.anchor
+{
+  text-decoration: none;
+  
+}
+.nav-link
+{
+  color: black;
+}
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+.pre{
+  margin-left: 50px;
+}
+.go
+{
+  margin-left: 50px;
+}
+.logo
+{
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+}
